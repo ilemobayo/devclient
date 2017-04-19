@@ -17,6 +17,10 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class App {
     
+    public App(){
+        System.out.print("Yes, Good Morning.");
+    }
+    
     @RequestMapping("/")
     public ManagerService app(){
         RestTemplate temp = new RestTemplate();
