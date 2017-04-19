@@ -20,7 +20,7 @@ public class ManagerService {
     }
     
     public void setDataReturned(String txt){
-        //
+        //setter
         this.dataReturned = txt;
     }
     
