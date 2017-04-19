@@ -15,10 +15,12 @@ import org.springframework.stereotype.Service;
 public class ManagerService {
     private String dataReturned;
     
+    //Constructor
     public ManagerService(){
     }
     
     public void setDataReturned(String txt){
+        //
         this.dataReturned = txt;
     }
     
